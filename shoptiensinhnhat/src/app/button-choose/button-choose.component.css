@@ -1,0 +1,16 @@
+.click-order {
+  overflow: hidden;
+  border-radius: 15px;
+  height: 30px;
+  width: 100px;
+  border-color: rgba(0, 0, 0, 0);
+  border-width: 2px;
+  transition-duration: 0s;
+  color: rgb(255, 255, 255);
+}
+.color_button {
+  background-color: rgb(255, 0, 0);
+}
+.color_button_disabled {
+  background-color:rgb(250, 112, 112)
+}

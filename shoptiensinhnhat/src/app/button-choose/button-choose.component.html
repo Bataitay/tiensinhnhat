@@ -1,0 +1,1 @@
+<button [disabled]="clicked" class="click-order {{clicked ? 'color_button_disabled' : 'color_button'}}" (click)="addToCart($event);clicked = true;" ><i class="fa-solid {{!clicked ? 'fa-cart-shopping' : 'fa-check'}}"></i> Chọn</button>
